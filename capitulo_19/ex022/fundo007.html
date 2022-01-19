@@ -4,19 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posicionamento</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+            /*o scroll vai fazer com que a imagem de fundo role junto com o conteúdo, já o fixed faz com que a imagem de fundo fique fixa sem rolagem e apenas o conteudo role*/
+            /*Shorthand - background
+            ordem:
+            color -> image -> position -> repeat -> [size] -> attachment
+            Exemplo:
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover; /*O background-size infelizemnte ainda nao funciona no Shorthand - background. Portanto, ele tem que ser declarado fora a parte*/
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +37,9 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aperiam quos similique deserunt consequuntur cum alias harum? Velit quo rem dolorem harum, quisquam provident a laborum, impedit, dolor reprehenderit error! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sint reiciendis voluptate magni nemo! Eius laboriosam ab a rerum natus blanditiis, inventore sequi nam necessitatibus repudiandae, cupiditate possimus harum alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus cumque nobis consectetur reiciendis quaerat, impedit expedita minus possimus. Eaque harum animi debitis libero vel ducimus voluptates voluptatum reprehenderit commodi nihil!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aperiam quos similique deserunt consequuntur cum alias harum? Velit quo rem dolorem harum, quisquam provident a laborum, impedit, dolor reprehenderit error! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sint reiciendis voluptate magni nemo! Eius laboriosam ab a rerum natus blanditiis, inventore sequi nam necessitatibus repudiandae, cupiditate possimus harum alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus cumque nobis consectetur reiciendis quaerat, impedit expedita minus possimus. Eaque harum animi debitis libero vel ducimus voluptates voluptatum reprehenderit commodi nihil!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aperiam quos similique deserunt consequuntur cum alias harum? Velit quo rem dolorem harum, quisquam provident a laborum, impedit, dolor reprehenderit error! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sint reiciendis voluptate magni nemo! Eius laboriosam ab a rerum natus blanditiis, inventore sequi nam necessitatibus repudiandae, cupiditate possimus harum alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus cumque nobis consectetur reiciendis quaerat, impedit expedita minus possimus. Eaque harum animi debitis libero vel ducimus voluptates voluptatum reprehenderit commodi nihil!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aperiam quos similique deserunt consequuntur cum alias harum? Velit quo rem dolorem harum, quisquam provident a laborum, impedit, dolor reprehenderit error! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sint reiciendis voluptate magni nemo! Eius laboriosam ab a rerum natus blanditiis, inventore sequi nam necessitatibus repudiandae, cupiditate possimus harum alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus cumque nobis consectetur reiciendis quaerat, impedit expedita minus possimus. Eaque harum animi debitis libero vel ducimus voluptates voluptatum reprehenderit commodi nihil!
         </p>
     </main>
