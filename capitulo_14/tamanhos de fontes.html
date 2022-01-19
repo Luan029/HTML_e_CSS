@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+           font-family:  Helvetica, sans-serif; 
+           /*Medidas Absolutas: 
+           Centimetro: cm; Mililetro: mm; Polegada: in;
+           pixel: px; ponto: pt; páica: pc.*/
+
+           /*Medidas relativas: 
+           Tamanho atual da fonte baseada em M maiúsculo: em;
+            altura atual da fonte baseada em x minúsculo: ex;
+           parecido com o em so que é a fonte do body: rem; largura da
+           vew port ou largura de tela: vw; altura da tela: vh.
+           */
+
+           /*Medidas oficialmente recomendadas para uso: 
+           px e em.*/
+           font-size: 1em; /*Tamanho da fonte*/
+           font-weight: normal; /*Peso da fonte: 
+           lighter, normal, bold, bolder. Ou, de 100 a 900*/
+           font-style: normal;/*Estilo da fonte*/
+            text-decoration: underline; /*sublinhado*/
+
+        }
+        h1{
+            /*font-family: fantasy;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+            /*Para condençar todas acima em uma só, basta usar
+            shorthans font 
+            font-style -> font-weight -> font-size -> font-family*/
+            font:italic bolder 3em fantasy;
+            
+        }
+        h2{
+            font:normal bolder 2em fantasy;
+        }
+        
+    </style>
+</head>
+<body >
+    <h1>Trabalhando com fontes</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Amet sit, consectetur quo nemo molestias incidunt ipsam 
+        ccusantium voluptas aliquam hic totam blanditiis nobis 
+        explicabo laborum repellat voluptatum porro a quas!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Amet sit, consectetur quo nemo molestias incidunt ipsam 
+        ccusantium voluptas aliquam hic totam blanditiis nobis 
+        explicabo laborum repellat voluptatum porro a quas!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Amet sit, consectetur quo nemo molestias incidunt ipsam 
+        ccusantium voluptas aliquam hic totam blanditiis nobis 
+        explicabo laborum repellat voluptatum porro a quas!
+    </p>
+    <h2>Subtítulo do exercício</h2>
+    
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Amet sit, consectetur quo nemo molestias incidunt ipsam 
+        ccusantium voluptas aliquam hic totam blanditiis nobis 
+        explicabo laborum repellat voluptatum porro a quas!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Amet sit, consectetur quo nemo molestias incidunt ipsam 
+        ccusantium voluptas aliquam hic totam blanditiis nobis 
+        explicabo laborum repellat voluptatum porro a quas!
+    </p>
+</body>
+</html>

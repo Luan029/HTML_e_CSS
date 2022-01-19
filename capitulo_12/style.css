@@ -1,0 +1,17 @@
+@charset "UTF-8"; 
+    body {
+        background-color: brown;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    h1{
+        background-color: rgb(107, 99, 101);
+        color: cornsilk;
+    }
+    h2{
+        color: gainsboro;
+    }
+    p{
+        text-align: center;
+    }
+        

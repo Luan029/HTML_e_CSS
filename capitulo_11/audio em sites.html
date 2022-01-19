@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio em Sites</title>
+</head>
+<body>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Aprendendo a reproduzir áudios em HTML5</p>
+    <!--Formatos compatíveis: MP3, wav, OGG-->
+    <!--Primeira maneira-->
+    <audio src="midia/space_age_hustle-squadda.mp3" controls autoplay> </audio>
+    <h2>Segunda maneira</h2>
+    <audio preload="metadata" autoplay controls>
+        <!--A ordem é muito importante. Primeiro ele vai tentar carregar em MP3-->
+        <source src="midia/space_age_hustle-squadda.mp3" type="audio/mpeg">
+        <!--Se ele não conseguir, vai tentar carregar em OGG-->
+        <source src="midia/space_age_hustle-squadda.ogg" type="audio/ogg">
+        <!--Se ele não conseguir, vai tentar carregar em wav-->
+        <source src="midia/space_age_hustle-squadda.wav" type="audio/wav">
+         
+    </audio>
+</body>
+</html>

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #E6F3FF, #B0BAC3, #7C838A);
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+nav{
+    background-color: rgb(175, 173, 173);
+    padding: 3px;
+    box-shadow: 2px 2px 4px 1px #00000080;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 25px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    /*Se voce quiser, pode definir todos os lados das bordas
+    separadamente começando pelo primeiro vertice de cima a esqueda,
+    seguindo em sentido horario ate o ultimo vertice de baixo a esqueda:
+    border-radius: 20px 10px 30px 40px;
+
+    Tambem pode definir dois vertices opostos em um so. começando pelos
+    (vertice de cima a esquerda e o vertice de baixo a direita) e visse versa:border-radius: 
+    border-radius: 20px 10px;
+
+    ou pode definir todos os vertices por iguais em apenas um:border-radius:
+    border-radius: 10px;
+    */
+    border-radius: 10px 0px;
+    box-shadow: 4px 4px 9px 8px #00000038 ;
+}
+section{
+    padding: 10px;
+    margin: 10px;
+}
+article{
+    background-color: lightgray;
+    padding: 5px;
+    margin: 25px 15px;
+}
+article > aside{
+    background-color: rgb(129, 129, 129);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradientes em CSS</title>
+    <style>
+        * { 
+            /*Configurações globais das CSS*/
+            height: 100%; /*altura*/
+        }
+        body{
+            /*No linear- gradient, vc vai indicar a direção e as cores*/
+            /*background-image: linear-gradient(to top, white, blue); Para cima*/
+            /*background-image: linear-gradient(to right, white, blue); Para a direira */
+            /*background-image: linear-gradient(to left, white, blue); Para a esquerda */
+            /*background-image: linear-gradient(to bottom, #C2E7D9, #A6CFD5, #26408B, #0F084B, #0D0221); Para baixo*/
+             background-attachment: fixed; /*Deixar fundo fixo*/
+            /*background-image: linear-gradient(to bottom, #555AD2, #893ACB, #D23E94, #F44D55, #FFAF53);*/
+            background-image: radial-gradient(circle, #555AD2, #893ACB, #D23E94, #F44D55, #FFAF53);
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradientes</h1>
+</body>
+</html>

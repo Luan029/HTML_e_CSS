@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgray;
+            /*Simplificando com o shorthands:
+            border: 10px solid darkgray;
+            */
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            /*Simplificando com o shorthands:
+            se os lados forem diferentes, você coloca no sentido
+            horario. top(topo), right(direita), bottom(baixo) e left(esquerda):
+            padding: 20px 10px 15px 20px;
+
+            mas se todos os lados forem iguais, basta colocar so uma media:
+            padding: 10px;
+
+            por fim, voce pode colocar dois valores, o primeiro representa topo
+            e baixo. E o segundo representa direira e esquerda:
+            padding: 10px 20px;
+            */
+
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            /*margin: auto; 
+            serve pra centralizar a caixa orizontalmente no 
+            centro da tela*/
+
+            /*Simplificando com o shorthands:
+            Com as mesmas explicações de simplificações de tamanho do
+            padding, o margin pode ser simpliicado da mesma forma:
+            margin: 20px 30px 40px 20px;
+            margin: 20px;
+            margin: 10px 20px;
+            */
+            
+            outline-width: 5px;
+            outline-style: solid;
+            outline-color: darkslateblue;
+
+            /*simplificando com o shorthands:
+            outline:5px solid darkslateblue;
+            */
+        }
+        a{
+            border-width: 4px;
+            border-style: solid;
+            border-color: darkred;
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-lavel</h1>
+    <p>Parágrafos também são exemplos de box-lavel. Mas, os
+        <a href="https://www.facebook.com/"> links são exemplos de 
+        caixas inline-lavel</a> . Vamos ver como tudo isso funciona. 
+    </p>
+</body>
+</html>
