@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            position: relative;
+            height: 94vh;
+            background-color: purple;
+            padding: 10px;
+        }
+        #conteudo{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 300px;
+            background-color: yellow;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            
+        }
+        /*
+        A regra é a seguinte. A caixa de fora tem um posicionamento relativo e a de dentro tem um posicionamento absoluto.
+        Quando voce coloca um posicionamento absoluto num elemento, vc pode configurar o left(a distancia da borda esqueda da caixa de fora ate a borda da caixa de dentro) e o top(a distancia da borda de cima da caixa de fora ate a de dentro) dele*/
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
