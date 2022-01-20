@@ -37,6 +37,10 @@ p > a{
     font-weight: bold;
     color: white;
 }
+section {
+    min-width: 300px;
+    max-width: 1000px;
+}
 article, aside > p{
     font-family: 'Sriracha';
     font-size: 47px;
