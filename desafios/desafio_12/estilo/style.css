@@ -24,7 +24,7 @@ header {
     text-align: center;
 }
 header > h1{
-    
+    /*text-transform: uppercase; transforma todas as letras em letras maiusculas*/
     font-family: 'Passion One';
     font-size: 136px;
 }
