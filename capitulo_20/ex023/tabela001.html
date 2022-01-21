@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse; /*Essa funçao vai colar as bordas da tabela*/
+        }
+        td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: left; /*Alinhamento horizontal*/
+            vertical-align: top; /*Alinhamento vertical*/
+        }
+        td:hover{
+            background-color: black;
+            color: #ffbb22;
+            vertical-align: middle;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!--
+        HIERARQUIA DE TABELAS (simples)
+        table <table> </table>= tabela
+            table row <tr> </tr>= linha de tabela
+                table header <th> </th>= cabeçalho de tabela
+                    table data <td> </td> = dado de tabela
+    -->
+    <table>
+        <tr> <!--Primeira linha-->
+            <td>A1</td> <!--Primeiro dado-->
+            <td>B1</td> <!--Segundo dado-->
+            <td>C1</td> <!--Terceiro dado-->
+        </tr>
+        <tr> <!--Segunda linha-->
+            <td>A2</td> <!--Primeiro dado-->
+            <td>B2</td> <!--Segundo dado-->
+            <td>C2</td> <!--Terceiro dado-->
+        </tr>
+        <tr> <!--Terceira linha-->
+            <td>A3</td> <!--Primeiro dado-->
+            <td>B3</td> <!--Segundo dado-->
+            <td>C3</td> <!--Terceiro dado-->
+        </tr>
+        <tr> <!--Quarta linha-->
+            <td>A4</td> <!--Primeiro dado-->
+            <td>B4</td> <!--Segundo dado-->
+            <td>C4</td> <!--Terceiro dado-->
+        </tr>
+    </table>
+</body>
+</html>
