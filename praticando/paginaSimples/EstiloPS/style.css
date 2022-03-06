@@ -1,0 +1,66 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    font-family: sans-serif;
+    background-image: url(https://res.cloudinary.com/codier/image/upload/v1584455527/wyhgo45zlqaslhicdftj.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+
+}
+nav{
+    margin-top: 40px;
+    margin-left: 125px;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    text-align: justify;
+    margin: 5px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: normal;
+}
+nav> a:hover{
+    background-color: #84BD27;
+    border-radius: 5px;
+}
+
+nav >h1{
+    background-color: #84BD27;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 38px;
+    font-weight: bold;
+}
+div >h2{
+    color: #70A715;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 38px;
+}
+div > p{
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 26px;
+}
+section{
+    
+    padding-bottom: 200px;
+}
+footer{
+    margin-top: 120px;
+    
+    color: #70A715;
+}
+footer > P{
+    text-align: center ;
+    font-size: 20px;
+}
