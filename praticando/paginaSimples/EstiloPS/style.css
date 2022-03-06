@@ -10,20 +10,19 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-    
 
 }
 nav{
-    margin-top: 40px;
-    margin-left: 125px;
+    margin-top: 6.4vh;
+    margin-left: 9.1vw;
 }
 nav > a{
     color: white;
     text-decoration: none;
     text-align: justify;
-    margin: 5px;
+    margin: 0.8vh 0.4vw;
     padding: 10px;
-    font-size: 30px;
+    font-size: 2.2vw;
     font-weight: normal;
 }
 nav> a:hover{
@@ -33,23 +32,26 @@ nav> a:hover{
 
 nav >h1{
     background-color: #84BD27;
-    margin: 5px;
+    margin: 0.8vh 0.4vw;
     padding: 10px;
     display: inline-block;
     border-radius: 5px;
-    font-size: 38px;
+    font-size: 2.7vw;
     font-weight: bold;
 }
+
 div >h2{
     color: #70A715;
-    margin-left: 40px;
-    margin-top: 30px;
-    font-size: 38px;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    font-size: 2.7vw;
 }
+
+
 div > p{
-    margin-left: 40px;
-    margin-top: 15px;
-    font-size: 26px;
+    margin-left: 3vw;
+    margin-top: 2.4vh;
+   font-size: 1.9vw;
 }
 section{
     
@@ -62,5 +64,5 @@ footer{
 }
 footer > P{
     text-align: center ;
-    font-size: 20px;
+    font-size: 1.4vw;
 }
